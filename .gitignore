@@ -10,8 +10,9 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Saved models and Keras Tuner results
-models/
+# Saved models and Keras Tuner results; only the chosen model is kept, so the hosted app can load it
+models/*
+!models/fine_tuned.keras
 tuner/
 
 # Editors and macOS
